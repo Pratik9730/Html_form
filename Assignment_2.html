@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Assignment 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <LINK REL='stylesheet' HREF='style.CSS' />
+    </head>
+    <body>
+      <h1>Zoo Keeper Application Form</h1>
+      <h4><em><label class = 'important'>Please complete the form. Mandatory fields are market with a</label></em></h4>
+          
+          <fieldset> 
+            <legend><h2>CONTACT DETAILS</h2></legend>  
+                <table border='0' cellpadding='6' width='400'>
+                    <tr>
+                    <td>
+                        <label for ='Name' class = 'important'>Name</label>
+                        <td><input type = 'text' id = 'Name'/> </td>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for ='Telephone'>Telephone</label>
+                        <td><input type = 'text' maxlength = '10' id='Telephone'/> </td>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for ='Email' class ='important'>Email</label>
+                        <td><input type = 'text' id='Email'/> </td>
+                    </td>
+                    </tr>
+                </table>
+          </fieldset>
+   
+   
+         <fieldset> 
+            <legend><h2>PERSONAL INFORMATION</h2></legend>  
+                <table border='0' cellpadding='6' width='400'>
+                    <tr>
+                    <td>
+                        <label for ='Age' class = 'important_Age'>Age</label>
+                        <td><input type = 'number' id = 'Age' max='100' min='1' value='1' step='1'> </td>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for ='Gender'>Gender</label>
+                        <td><select id='Gender'> 
+                          <option>Male</option>
+                          <option selected>Female</option>
+                          </select>
+                        </td>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for ='Zoo'>When did you first know you wanted to be a zoo-keeper?</label>
+                        <td><textarea name='Zoo' id='Zoo' rows = '6'></textarea> </td>
+                    </td>
+                    </tr>
+                </table>
+          </fieldset>
+
+        <fieldset>
+          <legend><h2>PICK YOUR FAVOURITE ANIMALS</h2></legend>  
+                <table border='0' cellpadding='6' width='400'>
+                  <tr>
+                    <td>
+                        <input type = 'checkbox' id ='Zebra' value ='Zebra' name ='Zebra'/>
+                        <label for ='Zebra'>Zebra</label>
+                    </td>
+                    <td>
+                        <input type = 'checkbox' id ='Cat' value ='Cat' name ='Cat'/>
+                        <label for ='Cat'>Cat</label>
+                    </td>
+                    <td>
+                        <input type = 'checkbox' id ='Anaconda' value ='Anaconda' name ='Anaconda'/>
+                        <label for ='Anaconda'>Anaconda</label>
+                    </td>
+                    <td>
+                        <input type = 'checkbox' id ='Human' value ='Human' name ='Human'/>
+                        <label for ='Human'>Human</label>
+                    </td>
+                  </tr>  
+                  <tr>
+                    <td>
+                        <input type = 'checkbox' id ='Elephant' value ='Elephant' name ='Elephant'/>
+                        <label for ='Elephant'>Elephant</label>
+                    </td>
+                    <td>
+                        <input type = 'checkbox' id ='Wildebeest' value ='Wildebeest' name ='Wildebeest'/>
+                        <label for ='Wildebeest'>Wildebeest</label>
+                    </td>
+                    <td>
+                        <input type = 'checkbox' id ='Pigeon' value ='Pigeon' name ='Pigeon'/>
+                        <label for ='Pigeon'>Pigeon</label>
+                    </td>
+                    <td>
+                        <input type = 'checkbox' id ='Crab' value ='Crab' name ='Crab'/>
+                        <label for ='Crab'>Crab</label>
+                    </td>
+                  </tr>  
+                  
+                </table>
+          </fieldset>
+         <table  border='0' cellpadding='10'>
+             <tr>
+                 <td>
+                       <input type ='submit' value = 'submit Application'/>
+                 </td>
+            </tr>
+         </table>
+    </body>
+</html>

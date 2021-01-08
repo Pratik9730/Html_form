@@ -1,0 +1,11 @@
+label.important:after{
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+label.important_Age:before{
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
